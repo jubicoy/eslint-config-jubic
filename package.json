@@ -5,12 +5,12 @@
   "author": "Jubic Oy",
   "license": "MIT",
   "main": "index.js",
-  "dependencies": {
-    "eslint": "^5.12.1",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-node": "^9.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.2",
-    "eslint-plugin-standard": "^4.0.0"
+  "peerDependencies": {
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-node": "11.x",
+    "eslint-plugin-promise": "4.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-standard": "4.x"
   }
 }
