@@ -8,6 +8,7 @@ module.exports = {
   },
 
   'env': {
+    'browser': true,
     'es6': true,
     'node': true
   },
@@ -20,15 +21,9 @@ module.exports = {
     'react'
   ],
 
-  'globals': {
-    'document': false,
-    'navigator': false,
-    'window': false
-  },
-
   'settings': {
     'react': {
-      'version': '16.0'
+      'version': 'detect'
     }
   },
 
@@ -172,7 +167,7 @@ module.exports = {
     'prefer-promise-reject-errors': 'error',
     'quotes': ['error', 'single', { 'avoidEscape': true, 'allowTemplateLiterals': true }],
     'rest-spread-spacing': ['error', 'never'],
-    'semi': ['error', 'never'],
+    'semi': ['error', 'always'],
     'semi-spacing': ['error', { 'before': false, 'after': true }],
     'space-before-blocks': ['error', 'always'],
     'space-before-function-paren': ['error', 'always'],
