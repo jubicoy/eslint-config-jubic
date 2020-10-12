@@ -11,6 +11,7 @@
     "eslint-plugin-node": "11.x",
     "eslint-plugin-promise": "4.x",
     "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x",
     "eslint-plugin-standard": "4.x"
   }
 }

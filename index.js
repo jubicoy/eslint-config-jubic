@@ -18,7 +18,8 @@ module.exports = {
     'node',
     'promise',
     'standard',
-    'react'
+    'react',
+    'react-hooks'
   ],
 
   'settings': {
@@ -26,6 +27,8 @@ module.exports = {
       'version': 'detect'
     }
   },
+
+  'extends': ['plugin:react-hooks/recommended'],
 
   'rules': {
     'accessor-pairs': 'error',
