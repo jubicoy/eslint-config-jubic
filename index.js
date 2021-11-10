@@ -27,7 +27,7 @@ module.exports = {
     }
   },
 
-  'extends': ['standard', 'plugin:react-hooks/recommended'],
+  'extends': ['plugin:react-hooks/recommended'],
 
   'rules': {
     'accessor-pairs': 'error',
@@ -200,11 +200,6 @@ module.exports = {
     'node/process-exit-as-throw': 'error',
 
     'promise/param-names': 'error',
-
-    'standard/array-bracket-even-spacing': ['error', 'either'],
-    'standard/computed-property-even-spacing': ['error', 'even'],
-    'standard/no-callback-literal': 'error',
-    'standard/object-curly-even-spacing': ['error', 'either'],
 
     'jsx-quotes': ['error', 'prefer-single'],
     'react/jsx-boolean-value': 'error',
