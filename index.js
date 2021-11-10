@@ -17,7 +17,6 @@ module.exports = {
     'import',
     'node',
     'promise',
-    'standard',
     'react',
     'react-hooks'
   ],
@@ -28,7 +27,7 @@ module.exports = {
     }
   },
 
-  'extends': ['plugin:react-hooks/recommended'],
+  'extends': ['standard', 'plugin:react-hooks/recommended'],
 
   'rules': {
     'accessor-pairs': 'error',
