@@ -6,10 +6,10 @@
   "license": "MIT",
   "main": "index.js",
   "peerDependencies": {
-    "eslint": "8.x",
+    "eslint": "7.x || 8.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-node": "11.x",
-    "eslint-plugin-promise": " 6.x",
+    "eslint-plugin-promise": "5.x || 6.x",
     "eslint-plugin-react": "7.x",
     "eslint-plugin-react-hooks": "4.x"
   }
